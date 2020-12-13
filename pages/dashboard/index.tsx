@@ -4,8 +4,25 @@ import { SpendingChart } from "../../components/charts";
 import { Navbar } from "../../components/navbar";
 import { Sidebar } from "../../components/sidebar";
 import { TransactionList } from "../../components/transactions";
+import { useViewport } from "../../hooks";
 
 const index: React.FC = () => {
+  const { width } = useViewport();
+
+  if (width < 1100) {
+    return (
+      <div className="bg-black h-screen w-full ">
+        <div className="flex flex-col justify-center items-center py-16">
+          <div className="bg-gray-200 rounded-2xl p-3">
+            <h1 className="text-indigo-500 font-bold text-3xl"> Pay</h1>
+          </div>
+          <h1 className="text-2xl text-white">
+            Please open this page in a larger screen
+          </h1>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className=" bg-spartan-gray h-screen w-full  overflow-hidden">
       <div className="flex flex-col container mx-auto">
