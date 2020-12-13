@@ -21,7 +21,7 @@ const TransactionsList: React.FC<Iprops> = ({ category, amt, date }) => {
       </div>
       <div className="flex flex-row w-2/6 justify-between py-2 px-1 flex-none">
         <p className="font-bold text-sm text-gray-700">{amt}</p>
-        <button className="outline-none focus:outline-none">
+        <button role="button" className="outline-none focus:outline-none">
           <svg
             className="w-6 h-6"
             fill="none"

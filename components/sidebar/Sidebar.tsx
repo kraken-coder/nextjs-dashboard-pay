@@ -3,7 +3,10 @@ import React from "react";
 const Sidebar = () => {
   return (
     <div className="flex-none w-20  flex justify-center  items-center flex-col space-y-5 h-96 ">
-      <button className="outline-none border-none focus:outline-none ">
+      <button
+        role="button"
+        className="outline-none border-none focus:outline-none "
+      >
         <svg
           className="w-8 h-8"
           fill="none"
@@ -19,7 +22,7 @@ const Sidebar = () => {
           ></path>
         </svg>
       </button>
-      <button className="outline-none border-none ">
+      <button role="button" className="outline-none border-none ">
         <svg
           className="w-8 h-8"
           fill="none"
@@ -35,7 +38,7 @@ const Sidebar = () => {
           ></path>
         </svg>
       </button>
-      <button className="outline-none border-none ">
+      <button role="button" className="outline-none border-none ">
         <svg
           className="w-8 h-8"
           fill="none"
@@ -51,7 +54,7 @@ const Sidebar = () => {
           ></path>
         </svg>
       </button>
-      <button className="outline-none border-none ">
+      <button role="button" className="outline-none border-none ">
         <svg
           className="w-8 h-8"
           fill="none"
@@ -73,7 +76,7 @@ const Sidebar = () => {
           ></path>
         </svg>
       </button>
-      <button className="outline-none border-none ">
+      <button role="button" className="outline-none border-none ">
         <svg
           className="w-8 h-8"
           fill="none"

@@ -16,9 +16,17 @@ const index: React.FC = () => {
             <div className="flex flex-auto flex-col mx-auto max-w-3xl space-y-6">
               <div className="flex flex-row flex-none w-full h-2/6 space-x-5">
                 <div className="flex flex-none w-3/6 flex-col ">
-                  <h1 className="text-gray-800 font-bold text-xl">Dashboard</h1>
+                  <h1
+                    role="heading"
+                    className="text-gray-800 font-bold text-xl"
+                  >
+                    Dashboard
+                  </h1>
                   <div className="bg-black py-10 px-4 flex flex-col items-center justify-center w-full rounded-2xl">
-                    <h1 className="text-white font-bold text-2xl">
+                    <h1
+                      role="heading"
+                      className="text-white font-bold text-2xl"
+                    >
                       Welcome Back John
                     </h1>
                     <p className="text-gray-300 text-xs">
@@ -27,7 +35,10 @@ const index: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex flex-auto flex-col  w-full h-full ">
-                  <h1 className="text-gray-800 font-bold text-xl">
+                  <h1
+                    role="heading"
+                    className="text-gray-800 font-bold text-xl"
+                  >
                     Upcoming payments
                   </h1>
                   <div className="flex flex-row justify-between">
@@ -92,7 +103,10 @@ const index: React.FC = () => {
                   <p className="text-sm text-gray-500 font-bold  ">
                     Saved this month
                   </p>
-                  <button className="outline-none focus:outline-none bg-transparent border-none">
+                  <button
+                    role="button"
+                    className="outline-none focus:outline-none bg-transparent border-none"
+                  >
                     <svg
                       className="w-6 h-6"
                       fill="none"
@@ -110,7 +124,12 @@ const index: React.FC = () => {
                   </button>
                 </div>
                 <div className="flex flex-row justify-center">
-                  <h1 className="text-gray-800 font-bold text-3xl">$234.900</h1>
+                  <h1
+                    role="heading"
+                    className="text-gray-800 font-bold text-3xl"
+                  >
+                    $234.900
+                  </h1>
                 </div>
                 <div className="flex flex-row space-x-4 max-w-2xl mx-auto">
                   <p className="text-sm font-bold text-gray-800">Day</p>
